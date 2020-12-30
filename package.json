@@ -1,0 +1,20 @@
+{
+  "name": "react-gsm",
+  "version": "1.0.1",
+  "description": "Lightweight react global state management(轻量级react全局状态管理)",
+  "main": "initGlobal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "state",
+    "global",
+    "management",
+    "live",
+    "flux"
+  ],
+  "author": "luoyukun",
+  "license": "ISC"
+}
