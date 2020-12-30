@@ -15,6 +15,10 @@
     "live",
     "flux"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/White-paper/react-gsm"
+  },
   "author": "luoyukun",
   "license": "ISC"
 }
