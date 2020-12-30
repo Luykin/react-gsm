@@ -4,8 +4,6 @@
 
 `yarn add react-gsm`
 
-
-
 ##### **⭐️初始化**
 
 请尽可能提前初始化,react-gsm会在浏览器localStorage中主动取出键值对存储全局变量中
@@ -18,7 +16,6 @@ const defaultGlobal = {  userInfo: null,  token: null };
 const AsyncStorageListKey = ['token', 'userInfo'];
 
 initGlobal(defaultGlobal, AsyncStorageListKey);
-
 ```
 
 ##### **⭐️简单使用**
@@ -30,6 +27,7 @@ setGlobal修改全局变量的值 setGlobal(key, value, callback)
 getGlobal获取全局变量的值  getGlobal(key)
 
 ```
+import {bindData, setGlobal} from 'react-gsm';
 export default class Test extends React.Component {  
     constructor(props) {  
         super(props);
@@ -53,12 +51,10 @@ export default class Test extends React.Component {
 
 setGlobalStorage(key, value, otherKey)
 
-
-
 ```
 setGlobalStorage('userInfo', {'name': 'luoyukun'});
 ```
 
 ##### **⭐️待完善**
 
-
+react-native-gsm 链接:-
