@@ -65,7 +65,7 @@ export function bindData(key, local) {
 
 export function setGlobal(key, value, callback) {
     if (global && (key in global)) {
-        console.log(`全局设置${key},${JSON.stringify(value)} `);
+        // console.log(`全局设置${key},${JSON.stringify(value)} `);
         global[key] = value;
         if (callback) {
             callback();
@@ -110,7 +110,7 @@ export function initGlobal(defaultGlobal = {}, AsyncStorageListKey = []) {
                 new Promise((resolve, reject) => {
                     const res = localStorage.getItem(item);
                     let globalKey = item;
-                    console.log('内存取出', globalKey, res);
+                    // console.log('内存取出', globalKey, res);
                     setKey(defaultGlobal, globalKey, res, resolve);
                 })
             );

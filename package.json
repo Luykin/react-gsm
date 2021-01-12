@@ -1,6 +1,6 @@
 {
   "name": "react-gsm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight react global state management(轻量级react全局状态管理)",
   "main": "global.js",
   "scripts": {
